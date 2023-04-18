@@ -1,0 +1,104 @@
+body{
+    
+    background-image: url("https://lh3.googleusercontent.com/p/AF1QipPJi2zJDqoAqu5vf80McD15nGpr_uOfR9M9P3uf=s1360-w1360-h1020");
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+    font-family:Arial, Helvetica, sans-serif
+    
+
+}
+.secondyear{
+    width:400px;
+    height:480px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.7);
+    
+}
+    
+.dropdown{
+    align-self: center;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size:18px;
+    
+    
+
+}
+option{
+    font-size: 15px;
+    align-items: center;
+
+}
+.abc{
+    margin-left: 170px;
+    color:white;
+}
+.def{
+    margin-left: 150px;
+    color:white;
+}
+.ghi{
+    margin-left: 160px;
+    color: white;
+}
+
+
+h2{
+
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    
+}
+
+
+
+
+
+
+select{
+    align-self: center;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 350px;
+    height: 35px;
+    font-size:15px;
+}
+.button{
+    margin-top: 35px ;
+    background-color: #4CAF50; /* Green */
+    text-align: center;
+    height: 50px;
+    border:none;
+    width:350px;
+    color: white;
+    padding: 15px 32px;
+    margin-left:25px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    font-style: cursive;
+    transition-duration: 0.4s;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+.button1:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+@media sreen and(max-width= 600px)
+{
+    signupform{
+        width: 375px;
+        margin-left : auto;
+    }
+}

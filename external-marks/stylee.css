@@ -1,0 +1,119 @@
+/* options */
+body{
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: beige; 
+    
+    
+
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    text-decoration-line: underline;
+    color: black;
+}
+.row{
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.options .row{
+    margin-top: 50px;
+}
+p{
+    color: grey;
+    padding: 0px 40px;
+}
+.options .ctn{
+    margin-top: 30px;
+}
+h3{
+   font-size: 3vmin;
+    margin: 20px auto;
+}
+.footer{
+    width: 100%;
+    min-height: 100px;
+    height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background:rgb(121, 94, 150);
+    text-align: center;
+}
+.footer p{
+    color: whitesmoke;
+    margin:20px auto;
+    padding: 20px auto;
+}
+
+
+
+/* MOBILE DEVICE */
+@media only screen and (max-width:850px){
+    .menu-btn{
+        display: block;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: rgb(88, 21, 13);
+        margin-top: -900px;
+        transition: all 0.5s ease-in-out;
+    }
+    .mobile-menu{
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    }
+    .nav-links li {
+        margin: 30px auto;
+    }
+    /* options */
+    .row{
+        flex-direction: column;
+    }
+    .col img{
+       max-width: 90%;
+    }
+    .footer{
+        padding:10px;
+    }
+}
+/*-----ANIMATION----*/
+img{
+    transition: transform .3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.ctn:hover{
+    background: whitesmoke;
+    color: rgb(82, 40, 126);
+    box-shadow: 2px 2px 5px rgb(69, 68, 68);
+}
+li:hover{
+    color: rgb(82, 40, 126);
+    cursor: pointer;
+}
